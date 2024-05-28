@@ -1,0 +1,65 @@
+<section class="report">
+                <h2>Balanço Financeiro</h2>
+                <table>
+                    <tr>
+                        <th>Mês</th>
+                        <th>Receitas</th>
+                        <th>Despesas</th>
+                        <th>Lucro/Prejuízo</th>
+                    </tr>
+                    <tr>
+                        <td>Janeiro</td>
+                        <td>$5000</td>
+                        <td>$3000</td>
+                        <td>$2000</td>
+                    </tr>
+                    <tr>
+                        <td>Fevereiro</td>
+                        <td>$5500</td>
+                        <td>$3200</td>
+                        <td>$2300</td>
+                    </tr>
+                    <tr>
+                        <td>Março</td>
+                        <td>$7500</td>
+                        <td>$6200</td>
+                        <td>$1300</td>
+                    </tr>
+                    <tr>
+                        <td>a</td>
+                        <td>$5500</td>
+                        <td>$3200</td>
+                        <td>$2300</td>
+                    </tr>
+                </table>
+            </section>
+
+
+
+
+
+.report {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
